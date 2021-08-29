@@ -1,0 +1,67 @@
+*{
+    border: none;
+    margin: none;
+    padding: none;
+}
+
+section{
+    box-sizing: content-box;
+    padding: 20px 30px;
+}
+#principal{
+    width: 100%;
+    display: table;
+}
+#principal div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+#principal div span{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.first{
+    max-width: 50px;
+}
+.second{
+    margin-left: 90px;
+}
+#formulaire{
+    box-sizing: content-box;
+    max-width: 300px;
+    margin: 100px auto;
+}
+#formulaire p span{
+    display: block;
+    color: #009;
+    font-weight: 700;
+}
+#formulaire p input{
+    border: 1px solid #ccc;
+    padding: 7px;
+    width: 200px;
+    border-radius: 2px;
+}
+#formulaire p button{
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: rgb(41, 145, 145);
+}
+
+.delete{
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: rgb(231, 19, 37);
+}
+.edit{
+    margin-right: 5px;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 3px;
+    background-color: rgb(41, 145, 145);
+}
