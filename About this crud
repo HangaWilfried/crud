@@ -1,0 +1,7 @@
+En programmation un crud fait référence au create update et delete
+Ce dossier comporte donc un crud réalisé avec Javascript brute.
+
+J'ai d'un div principal qui reçoit des informations entrées via deux inputs
+Ces informations sont respectivement le nom et la localisation.
+Il est possible une fois ces informations enregistrés et stocker dans un localStorage
+De supprimer ou d'actualiser une ligne. Le principe du delete et du update fonctions
